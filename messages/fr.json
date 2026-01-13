@@ -69,6 +69,7 @@
     "docs": "Documentation",
     "blog": "Blog",
     "playground": "Terrain de Jeu",
+    "marketplace": "Place de marché",
     "contribute": "Contribuer",
     "joinIn": "Rejoindre",
     "contributeHandbook": "Guide de Contribution",
@@ -647,11 +648,10 @@
         "nextLevel": "Mainteneur",
         "description": "Guider et soutenir la prochaine génération de contributeurs",
         "requirements": [
-          "Mentorer avec succès au moins 2 stagiaires",
-          "Conduire des initiatives techniques ou de documentation",
-          "Participer aux décisions de conception et d'architecture",
-          "Maintenir une présence active dans la communauté",
-          "Démontrer un leadership et une expertise technique"
+          "Démontrer un leadership technique dans un ou plusieurs domaines clés",
+          "Maintenir une activité de contribution constante",
+          "S'engager avec la communauté sur GitHub et Slack",
+          "Approuvé par les mainteneurs principaux suite à un processus de revue publique"
         ],
         "goodStanding": "Les mentors en règle peuvent diriger des initiatives, représenter KubeStellar lors de conférences, recevoir un soutien pour les conférenciers, avoir leur mot à dire sur les décisions de la feuille de route du projet, et sont éligibles pour recevoir des bons de formation / examen de la CNCF pour les projets complétés avec succès."
       },
@@ -660,11 +660,10 @@
         "nextLevel": "Équipe Principale",
         "description": "Leader de confiance avec pleines responsabilités de projet",
         "requirements": [
-          "Avoir des permissions de commit sur les dépôts principaux",
-          "Conduire les processus de version et de planification",
-          "Prendre des décisions techniques critiques",
-          "Représenter KubeStellar dans des événements externes",
-          "Satisfaire les exigences d'activité bimensuelles"
+          "Créer au moins 2 tickets d'aide (Help Wanted) tous les 2 mois",
+          "Fusionner au moins 3 PRs tous les 2 mois",
+          "Soumettre au moins 8 revues de PR ou commentaires constructifs tous les 2 mois",
+          "Participer à au moins 3 réunions communautaires tous les 2 mois"
         ],
         "goodStanding": "Les mainteneurs en règle ont un accès complet en écriture, des droits de vote sur les décisions du projet, et peuvent servir de représentants officiels du projet."
       },
