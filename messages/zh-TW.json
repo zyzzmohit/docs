@@ -133,6 +133,9 @@
     "card4Title": "LinkedIn",
     "card4Description": "與我們的專業社群建立聯繫",
     "card4Link": "追蹤我們",
+    "card5Title": "YouTube",
+    "card5Description": "在 KubeStellar YouTube 頻道查看會議錄影、支援和資訊影片",
+    "card5Link": "KubeStellar YouTube",
     "formTitle": "傳送訊息給我們",
     "formName": "姓名 *",
     "formNamePlaceholder": "您的全名",
@@ -167,6 +170,7 @@
     "card2Button2": "GitHub",
     "card2Button3": "專案",
     "card2Button4": "手冊",
+    "card2Button5": "YouTube",
     "card3Title": "探索文件",
     "card3Description": "全面的指南、教學和 API 參考，協助您掌握 KubeStellar 的功能。",
     "card3Link1": "開始使用",
@@ -593,6 +597,7 @@
     "titleSpan": "階梯",
     "subtitle": "從首次貢獻者到受信任維護者的透明、基於功績的路徑，在 KubeStellar 社群中",
     "requirementsLabel": "需求：",
+    "goodStandingLabel": "信譽良好機會：",
     "nextLevelLabel": "下一級：",
     "levels": {
       "contributor": {
@@ -604,11 +609,12 @@
           "表現出對長期參與的熱情和興趣",
           "在 GitHub 和 Slack 上保持活躍",
           "非正式申請或提名加入實習專案"
-        ]
+        ],
+        "goodStanding": "信譽良好的貢獻者（滿足其建立「需要協助」問題、PR 審查和合併 PR 的指標）有資格獲得專業機會，包括被分配到導師專案。"
       },
-      "unpaidIntern": {
-        "title": "無薪實習生",
-        "nextLevel": "付費實習生",
+      "unpaidMentee": {
+        "title": "無薪學員",
+        "nextLevel": "付費學員",
         "description": "12 週的旅程，展現承諾和技能",
         "timeframe": "12 週",
         "requirements": [
@@ -617,10 +623,11 @@
           "參加每週團隊會議或提交摘要",
           "與導師協作",
           "獲得導師推薦"
-        ]
+        ],
+        "goodStanding": "信譽良好的無薪學員將獲得完成證書、推薦信，並優先考慮參加付費導師計畫（GSoC、LFX 等）。"
       },
-      "paidIntern": {
-        "title": "付費實習生",
+      "paidMentee": {
+        "title": "付費學員",
         "nextLevel": "導師",
         "description": "獲得認可的貢獻者，具有補償和責任",
         "requirements": [
@@ -629,7 +636,8 @@
           "提交 ≥3 個 PR 審查",
           "在 PR 或問題上提交 ≥5 個有用的評論",
           "在社群通話中進行或共同進行簡報"
-        ]
+        ],
+        "goodStanding": "信譽良好的付費學員將獲得專業推薦、職涯指導，以及領導專案或指導他人的機會。"
       },
       "mentor": {
         "title": "導師",
@@ -640,7 +648,8 @@
           "維持一致的貢獻活動",
           "在 GitHub 和 Slack 上與社群互動",
           "經過核心維護者的公開審查流程批准"
-        ]
+        ],
+        "goodStanding": "信譽良好的導師可以領導倡議、在會議上代表 KubeStellar、獲得演講者支援、對專案路線圖決策有發言權，並有資格在成功完成專案後獲得 CNCF 的培訓/考試禮券。"
       },
       "maintainer": {
         "title": "維護者",
@@ -651,7 +660,21 @@
           "每 2 個月 ≥3 個合併的 PR",
           "每 2 個月 ≥8 個 PR 審查或建設性評論",
           "每 2 個月 ≥3 次社群會議出席"
-        ]
+        ],
+        "goodStanding": "信譽良好的維護者擁有完整的寫入權限、對專案決策的投票權，並可以擔任正式的專案代表。"
+      },
+      "ambassador": {
+        "title": "大使",
+        "nextLevel": "Stellar 倡導者",
+        "description": "賦能並倡導 KubeStellar 的採用",
+        "requirements": [
+            "透過部落格文章、簡報或社群媒體積極推廣 KubeStellar",
+            "在聚會、會議或社群活動中代表 KubeStellar",
+            "建立關於 KubeStellar 的教育內容（教學、影片、示範）",
+            "與使用者互動以收集意見回饋並支援採用",
+            "維持維護者級別的活動（問題、PR、社群參與）"
+        ],
+        "goodStanding": "信譽良好的大使有資格獲得演講機會、共同撰寫部落格文章、搶先體驗新功能，以及獲得對其倡導工作的推廣支援。"
       }
     },
     "activityRequirements": {
