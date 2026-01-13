@@ -753,6 +753,7 @@
           "description": "Accéder aux dernières innovations et meilleures pratiques dans la gestion multi-cluster"
         }
       ]
+    },
     "partnershipOpportunities": {
       "title": "Devenir Partenaire",
       "subtitle": "Unissez vos forces avec KubeStellar pour stimuler l'innovation dans l'orchestration Kubernetes multi-cluster et étendre votre portée dans l'écosystème cloud-natif.",
