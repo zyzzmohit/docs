@@ -739,6 +739,9 @@
         "description": "Plateforme de gestion des ressources d'application qui assure les performances des applications tout en optimisant les coûts d'infrastructure via l'automatisation dirigée par l'IA."
       }
     },
+    "whyPartner": {
+      "title": "Pourquoi Être Partenaire Avec Nous",
+      "subtitle": "Rejoignez notre écosystème de partenaires innovants pour façonner l'avenir de la gestion Kubernetes multi-cluster",
       "benefits": [
         {
           "title": "Innovation",
