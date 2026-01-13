@@ -132,6 +132,9 @@
     "card4Title": "LinkedIn",
     "card4Description": "Connectez-vous avec notre communauté professionnelle",
     "card4Link": "Nous Suivre",
+    "card5Title": "YouTube",
+    "card5Description": "Regardez les enregistrements de réunions, le support et les vidéos d'information sur la chaîne YouTube KubeStellar",
+    "card5Link": "KubeStellar YouTube",
     "formTitle": "Envoyez-nous un message",
     "formName": "Nom *",
     "formNamePlaceholder": "Votre nom complet",
@@ -166,6 +169,7 @@
     "card2Button2": "GitHub",
     "card2Button3": "Projets",
     "card2Button4": "Guide",
+    "card2Button5": "YouTube",
     "card3Title": "Explorer la Documentation",
     "card3Description": "Guides complets, tutoriels et références API pour vous aider à maîtriser les capacités de KubeStellar.",
     "card3Link1": "Premiers Pas",
@@ -467,7 +471,20 @@
         "description": "Transformez vos compétences en codage avec le programme open source phare de Google",
         "sections": {
           "benefits": "Acquérez une expérience du monde réel, apprenez de mentors expérimentés, devenez partie d'une communauté open source, et recevez une bourse à la fin réussie du programme.",
-          "description": "Google Summer of Code est un programme mondial axé sur l'intégration de plus d'étudiants développeurs dans le développement de logiciels open source. Les étudiants travaillent avec une organisation open source sur un projet de programmation de 3 mois pendant leurs vacances scolaires."
+          "description": "Google Summer of Code est un programme mondial axé sur l'intégration de plus d'étudiants développeurs dans le développement de logiciels open source. Les étudiants travaillent avec une organisation open source sur un projet de programmation de 3 mois pendant leurs vacances scolaires.",
+          "overview": "KubeStellar participe en tant qu'organisation mentor. Nous fournissons des idées de projets, des mentors et une communauté accueillante pour que les étudiants apprennent et contribuent.",
+          "eligibility": "Les participants doivent avoir au moins 18 ans et être étudiants ou débutants dans le développement de logiciels open source. Pour les critères détaillés, veuillez consulter le site officiel du GSoC.",
+          "timeline": "Le programme se déroule généralement de mai à août. Les dates clés incluent la période de candidature, la phase de rapprochement communautaire et les phases de codage. Consultez le site Web du GSoC pour le calendrier officiel.",
+          "structure": "Les contributeurs acceptés travaillent sur leur projet sous la direction d'un ou plusieurs mentors de KubeStellar. Il y a des évaluations à mi-parcours et à la fin du programme.",
+          "howToApply": "Les étudiants peuvent postuler via le site Web de Google Summer of Code pendant la période de candidature. Nous recommandons de s'engager avec notre communauté et de contribuer à KubeStellar au préalable.",
+          "resources": [
+            {
+              "name": "Site Officiel GSoC"
+            },
+            {
+              "name": "KubeStellar GitHub"
+            }
+          ]
         }
       },
       "esoc": {
@@ -476,7 +493,20 @@
         "description": "Autonomisez les talents européens dans le développement open source",
         "sections": {
           "benefits": "Développez vos compétences techniques, collaborez avec des développeurs européens, contribuez à des projets open source importants, et recevez un mentorat et un support.",
-          "description": "European Summer of Code est une initiative visant à promouvoir le développement open source en Europe. Les participants travaillent sur des projets significatifs tout en apprenant des développeurs expérimentés et en contribuant à l'écosystème open source européen."
+          "description": "European Summer of Code est une initiative visant à promouvoir le développement open source en Europe. Les participants travaillent sur des projets significatifs tout en apprenant des développeurs expérimentés et en contribuant à l'écosystème open source européen.",
+          "overview": "KubeStellar est ravi de mentorer les participants à l'ESoC, offrant des projets stimulants et un soutien dédié pour les aider à grandir en tant que développeurs.",
+          "eligibility": "Ouvert aux étudiants et jeunes diplômés basés en Europe. Veuillez consulter le site officiel de l'ESoC pour les règles d'éligibilité détaillées.",
+          "timeline": "Le programme se déroule généralement pendant les mois d'été. Consultez le site Web de l'ESoC pour les dates et délais spécifiques.",
+          "structure": "Les participants travaillent en étroite collaboration avec les mentors KubeStellar sur un projet prédéfini, avec des points de contrôle réguliers et des sessions de feedback.",
+          "howToApply": "Les candidatures doivent être soumises via le portail officiel European Summer of Code.",
+          "resources": [
+            {
+              "name": "Site Officiel ESoC (Lien non disponible)"
+            },
+            {
+              "name": "KubeStellar GitHub"
+            }
+          ]
         }
       },
       "ifos": {
@@ -484,8 +514,21 @@
         "fullName": "Interns for Open Source",
         "description": "Lancez votre parcours open source avec KubeStellar",
         "sections": {
-          "benefits": "Apprentissage pratique, mentorat direct de l'équipe principale, opportunités de réseautage, et possibilité de transition vers des rôles rémunérés.",
-          "description": "Interns for Open Source est un programme d'apprentissage structuré conçu pour introduire les nouveaux contributeurs au développement open source via des projets pratiques et un mentorat dédié."
+          "benefits": "Bien qu'il s'agisse d'un programme non rémunéré, les diplômés reçoivent un certificat d'achèvement, une lettre de recommandation, et sont considérés en priorité pour tout futur programme de mentorat rémunéré comme GSoC ou LFX.",
+          "description": "Interns for Open Source (IFoS) est un programme de stage unique et non rémunéré créé par KubeStellar. Il est conçu pour les individus passionnés par l'open source et souhaitant acquérir une expérience pratique avec un projet de pointe.",
+          "overview": "Ce programme de 3 mois offre une voie directe vers la communauté KubeStellar. Les participants travaillent sur des projets significatifs et sont mentorés par nos développeurs principaux.",
+          "eligibility": "Nous accueillons les candidatures de toute personne ayant un fort intérêt pour Kubernetes, l'orchestration multi-cluster et l'open source. Une connaissance de base de Go et des technologies de conteneurs est un plus.",
+          "timeline": "IFoS est un programme continu. Les candidatures sont acceptées toute l'année, et les stages commencent en fonction de la disponibilité des projets et des emplois du temps des candidats.",
+          "structure": "Les stagiaires sont jumelés avec un mentor et intégrés dans l'une de nos équipes de développement. Le programme est flexible, permettant un engagement à temps partiel ou à temps plein.",
+          "howToApply": "Pour postuler, veuillez envoyer votre CV et une brève lettre de motivation à notre email communautaire. Nous vous encourageons également à commencer à contribuer à notre dépôt GitHub.",
+          "resources": [
+            {
+              "name": "KubeStellar GitHub"
+            },
+            {
+              "name": "Page Communautaire KubeStellar"
+            }
+          ]
         }
       },
       "lfx": {
@@ -493,8 +536,21 @@
         "fullName": "LFX Mentorship",
         "description": "Accélérez votre parcours open source avec le mentorat de la Linux Foundation",
         "sections": {
-          "benefits": "Mentorat professionnel, accès au réseau de la Linux Foundation, expérience de travail sur des projets critiques, et reconnaissance de l'industrie.",
-          "description": "LFX Mentorship connecte les développeurs en herbe avec des mentors expérimentés pour travailler sur des projets open source critiques soutenus par la Linux Foundation."
+          "benefits": "Recevez une bourse, acquérez une expérience pratique avec une technologie de pointe, construisez votre réseau professionnel et améliorez votre CV.",
+          "description": "Le programme LFX Mentorship, géré par la Linux Foundation, offre une opportunité d'apprentissage structurée et à distance pour les aspirants contributeurs open source. Les mentorés travaillent sur des projets réels avec des mentors expérimentés.",
+          "overview": "KubeStellar est fier de faire partie du programme LFX Mentorship. Nous proposons des projets critiques pour notre feuille de route, donnant aux mentorés la chance d'avoir un impact significatif.",
+          "eligibility": "Le programme est ouvert aux développeurs de tous horizons. Les exigences spécifiques peuvent varier selon le projet. Consultez la plateforme LFX Mentorship pour les détails sur l'éligibilité.",
+          "timeline": "LFX Mentorship se déroule par trimestres, généralement au printemps, en été et en automne. Chaque trimestre dure environ 12 semaines.",
+          "structure": "Les mentorés travaillent en tête-à-tête avec un mentor de KubeStellar, contribuant au projet et participant à la communauté.",
+          "howToApply": "Les candidatures sont soumises via la plateforme LFX Mentorship. Recherchez les projets KubeStellar et postulez.",
+          "resources": [
+            {
+              "name": "Plateforme LFX Mentorship"
+            },
+            {
+              "name": "KubeStellar GitHub"
+            }
+          ]
         }
       }
     }
@@ -544,6 +600,7 @@
     "titleSpan": "Contribution",
     "subtitle": "Un chemin transparent et basé sur le mérite de contributeur débutant à mainteneur de confiance dans la communauté KubeStellar",
     "requirementsLabel": "Exigences :",
+    "goodStandingLabel": "Opportunités en Règle :",
     "nextLevelLabel": "Niveau Suivant :",
     "levels": {
       "contributor": {
@@ -555,11 +612,12 @@
           "Rejoindre le Slack de la communauté KubeStellar",
           "Lire et comprendre le Code de Conduite",
           "Faire votre première contribution (documentation, code, ou tests)"
-        ]
+        ],
+        "goodStanding": "Les contributeurs en règle (respectant leurs métriques pour la création de tickets d'aide, les revues de PR et les PR fusionnées) sont qualifiés pour des opportunités professionnelles, y compris l'affectation à des projets de mentorat."
       },
-      "unpaidIntern": {
-        "title": "Stagiaire Non Rémunéré",
-        "nextLevel": "Stagiaire Rémunéré",
+      "unpaidMentee": {
+        "title": "Mentoré Non Rémunéré",
+        "nextLevel": "Mentoré Rémunéré",
         "description": "Parcours de 12 semaines pour démontrer l'engagement et les compétences",
         "timeframe": "12 semaines",
         "requirements": [
@@ -568,10 +626,11 @@
           "Contribuer à la documentation ou aux tests",
           "Démontrer une compréhension des meilleures pratiques KubeStellar",
           "Recevoir l'approbation d'un mainteneur existant"
-        ]
+        ],
+        "goodStanding": "Les mentorés non rémunérés en règle reçoivent des certificats d'achèvement, des lettres de recommandation, et une considération prioritaire pour les programmes de mentorat rémunérés (GSoC, LFX, etc.)."
       },
-      "paidIntern": {
-        "title": "Stagiaire Rémunéré",
+      "paidMentee": {
+        "title": "Mentoré Rémunéré",
         "nextLevel": "Mentor",
         "description": "Contributeur reconnu avec compensation et responsabilité",
         "requirements": [
@@ -580,7 +639,8 @@
           "Prendre la responsabilité d'un composant ou domaine spécifique",
           "Mentorer de nouveaux contributeurs",
           "Participer activement aux discussions de la communauté"
-        ]
+        ],
+        "goodStanding": "Les mentorés rémunérés en règle reçoivent des références professionnelles, un mentorat de carrière, et des opportunités de diriger des projets ou de mentorer d'autres personnes."
       },
       "mentor": {
         "title": "Mentor",
@@ -592,7 +652,8 @@
           "Participer aux décisions de conception et d'architecture",
           "Maintenir une présence active dans la communauté",
           "Démontrer un leadership et une expertise technique"
-        ]
+        ],
+        "goodStanding": "Les mentors en règle peuvent diriger des initiatives, représenter KubeStellar lors de conférences, recevoir un soutien pour les conférenciers, avoir leur mot à dire sur les décisions de la feuille de route du projet, et sont éligibles pour recevoir des bons de formation / examen de la CNCF pour les projets complétés avec succès."
       },
       "maintainer": {
         "title": "Mainteneur",
@@ -604,7 +665,21 @@
           "Prendre des décisions techniques critiques",
           "Représenter KubeStellar dans des événements externes",
           "Satisfaire les exigences d'activité bimensuelles"
-        ]
+        ],
+        "goodStanding": "Les mainteneurs en règle ont un accès complet en écriture, des droits de vote sur les décisions du projet, et peuvent servir de représentants officiels du projet."
+      },
+      "ambassador": {
+        "title": "Ambassadeur",
+        "nextLevel": "Avocat Stellaire",
+        "description": "Autonomiser et plaider pour l'adoption de KubeStellar",
+        "requirements": [
+          "Promouvoir activement KubeStellar via des articles de blog, des présentations ou les réseaux sociaux",
+          "Représenter KubeStellar lors de meetups, conférences ou événements communautaires",
+          "Créer du contenu éducatif (tutoriels, vidéos, démos) sur KubeStellar",
+          "S'engager avec les utilisateurs pour recueillir des commentaires et soutenir l'adoption",
+          "Maintenir une activité de niveau mainteneur (issues, PRs, engagement communautaire)"
+        ],
+        "goodStanding": "Les ambassadeurs en règle sont qualifiés pour des opportunités de prise de parole, la co-rédaction d'articles de blog, un accès anticipé aux nouvelles fonctionnalités, et un soutien promotionnel pour leurs efforts de plaidoyer."
       }
     },
     "activityRequirements": {
@@ -669,16 +744,18 @@
       "subtitle": "Rejoignez notre écosystème de partenaires innovants pour façonner l'avenir de la gestion Kubernetes multi-cluster",
       "benefits": [
         {
+      "benefits": [
+        {
+          "title": "Innovation",
           "description": "Collaborer sur des solutions d'orchestration multi-cluster de pointe"
         },
         {
+          "title": "Communauté",
           "description": "Se connecter avec un écosystème vibrant de développeurs et organisations cloud-natifs"
         },
         {
+          "title": "Excellence",
           "description": "Accéder aux dernières innovations et meilleures pratiques dans la gestion multi-cluster"
-        },
-        {
-          "description": "Bénéficier d'une visibilité et reconnaissance accrues dans la communauté"
         }
       ]
     },
