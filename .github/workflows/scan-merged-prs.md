@@ -2,8 +2,8 @@
 name: scan-merged-prs
 description: Hourly scan for merged PRs across KubeStellar org repos and create doc update issues
 on:
-  schedule:
-    - cron: "0 */1 * * *" # Run every hour
+  #   schedule:
+  #     - cron: "0 */1 * * *" # Run every hour
   workflow_dispatch:
     inputs:
       hours_lookback:
